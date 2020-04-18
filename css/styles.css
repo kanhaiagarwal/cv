@@ -28,10 +28,15 @@ h3 {
 
 body {
   background-color: #e4f9f5;
+  color: #40514E;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
   font-size: 1.5em;
+}
+
+p {
+  line-height: 2;
 }
 
 .skills {
@@ -131,12 +136,13 @@ body {
 
 .bottom-container {
   background-color: #30e3ca;
+  padding: 50px 0 20px;
 }
 
 .bottom-container p {
   margin-top: 30px;
   padding-bottom: 30px;
-  color: white;
+  color: #eaf6f6;
   font-size: 15px; 
 }
 
@@ -147,4 +153,8 @@ body {
   margin-right: 20px;
   text-decoration: none;
   color: #11999e;
+}
+
+.footer-link:hover {
+  color: #eaf6f6;
 }
